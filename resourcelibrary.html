@@ -1,0 +1,510 @@
+<div style='border: 2px solid black'>
+<form id="regForm" onsubmit="" action="" style='vertical-align: top'>
+<!-- One "tab" for each step in the form: -->
+<div class="tab">
+  <h1 style="text-align: left;">Category:</h1>
+  <div align='left'>
+  <select name="filter_Category" id="filter_Category" style='text-align: center'>
+  <option value="Housing">Housing</option>
+  <option value="In-Home Care">In-Home Care</option>
+  <option value="Home Maintenance">Home Maintenance</option>
+  <option value="Equipment">Equipment</option>
+  <option value="Healthcare">Healthcare</option>
+  <option value="Support Groups">Support Groups</option>
+  <option value="Adult Daycare">Adult Daycare</option>
+  <option value="Crisis Support">Crisis Support</option>
+  <option value="Insurance">Insurance</option>
+  <option value="Legal">Legal</option>
+  <option value="Financial Assistance">Financial Assistance</option>
+  <option value="Employment">Employment</option>
+  <option value="Transportation">Transportation</option>
+</select><br>
+  </div>
+</div>
+
+
+<div class="tab">
+  <h1>Housing:</h1>
+  <label for="section8"> Section 8/HUD</label>
+  <input type="checkbox" id="section8" name="section8" value="section8" oninput="this.className = ''">
+  <br/>
+  <label for="lowIncome"> Low Income</label>
+  <input type="checkbox" id="lowIncome" name="lowIncome" value="lowIncome" oninput="this.className = ''">
+  <br/>
+  <label for="srcommunity"> Senior Community</label>
+  <input type="checkbox" id="srcommunity" name="srcommunity" value="srcommunity" oninput="this.className = ''">
+  <br/>
+  <label for="indLiving"> Independent Living</label>
+  <input type="checkbox" id="indLiving" name="indLiving" value="indLiving" oninput="this.className = ''">
+  <br/>
+  <label for="emr"> Emergency Shelter</label>
+  <input type="checkbox" id="emr" name="emr" value="emr" oninput="this.className = ''">
+  <br/>
+  <label for="alz"> Alzheimer/Dementia</label>
+  <input type="checkbox" id="alz" name="alz" value="alz" oninput="this.className = ''">
+  <br/>
+  <label for="rehab"> Rehab</label>
+  <input type="checkbox" id="rehab" name="rehab" value="rehab" oninput="this.className = ''">
+  <br/>
+  <label for="asLiving"> Assisted Living</label>
+  <input type="checkbox" id="asLiving" name="asLiving" value="asLiving" oninput="this.className = ''">
+  <br/>
+  <label for="skillednursing"> Skilled Nursing</label>
+  <input type="checkbox" id="skillnursing" name="skillnursing" value="skillnursing" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>In-Home Care:</h1>
+  <label for="homemaking"> Homemaking</label>
+  <input type="checkbox" id="homemaking" name="homemaking" value="homemaking" oninput="this.className = ''">
+  <br/>
+  <label for="attendantcare"> Attendant Care</label>
+  <input type="checkbox" id="attendantcare" name="attendantcare" value="attendantcare" oninput="this.className = ''">
+  <br/>
+  <label for="medicalcare"> Medical Care</label>
+  <input type="checkbox" id="medicalcare" name="medicalcare" value="medicalcare" oninput="this.className = ''">
+  <br/>
+  <label for="smc"> Skilled Home Care</label>
+  <input type="checkbox" id="smc" name="smc" value="smc" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Home Maintenance:</h1>
+  <label for="lawn"> Lawn Care</label>
+  <input type="checkbox" id="lawn" name="lawn" value="lawn" oninput="this.className = ''">
+  <br/>
+  <label for="snow"> Snow Removal</label>
+  <input type="checkbox" id="snow" name="snow" value="snow" oninput="this.className = ''">
+  <br/>
+  <label for="plumbing"> Plumbing</label>
+  <input type="checkbox" id="plumbing" name="plumbing" value="plumbing" oninput="this.className = ''">
+  <br/>
+  <label for="electric"> Electric</label>
+  <input type="checkbox" id="electric" name="electric" value="electric" oninput="this.className = ''">
+  <br/>
+  <label for="air"> Air Conditioning</label>
+  <input type="checkbox" id="air" name="air" value="air" oninput="this.className = ''">
+  <br/>
+  <label for="hc"> Remodeling/Home Care</label>
+  <input type="checkbox" id="hc" name="hc" value="hc" oninput="this.className = ''">
+  <br/>
+  <label for="eq"> Equipment</label>
+  <input type="checkbox" id="eq" name="eq" value="eq" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Equipment:</h1>
+  <label for="ramps"> Ramps</label>
+  <input type="checkbox" id="ramps" name="ramps" value="ramps" oninput="this.className = ''">
+  <br/>
+  <label for="wheelchairs"> Wheelchairs</label>
+  <input type="checkbox" id="wheelchairs" name="wheelchairs" value="wheelchairs" oninput="this.className = ''">
+  <br/>
+  <label for="lifts"> Lifts</label>
+  <input type="checkbox" id="lifts" name="lifts" value="lifts" oninput="this.className = ''">
+  <br/>
+  <label for="hospitalbeds"> Hospital Beds</label>
+  <input type="checkbox" id="hospitalbeds" name="hospitalbeds" value="hospitalbeds" oninput="this.className = ''">
+  <br/>
+  <label for="medequip"> Medical Equipment</label>
+  <input type="checkbox" id="medequip" name="medequip" value="medequip" oninput="this.className = ''">
+  <br/>
+  <label for="medalerts"> Medical Alerts</label>
+  <input type="checkbox" id="medalerts" name="medalerts" value="medalerts" oninput="this.className = ''">
+</div>
+  
+<div class="tab">
+  <h1>Healthcare:</h1>
+  <label for="mh"> Mental Health</label>
+  <input type="checkbox" id="mh" name="mh" value="mh" oninput="this.className = ''">
+  <br/>
+  <label for="dental"> Dental</label>
+  <input type="checkbox" id="dental" name="dental" value="dental" oninput="this.className = ''">
+  <br/>
+  <label for="pod"> Podiatry</label>
+  <input type="checkbox" id="pod" name="pod" value="pod" oninput="this.className = ''">
+  <br/>
+  <label for="vis"> Vision</label>
+  <input type="checkbox" id="vis" name="vis" value="vis" oninput="this.className = ''">
+  <br/>
+  <label for="hear"> Hearing</label>
+  <input type="checkbox" id="hear" name="hear" value="hear" oninput="this.className = ''">
+  <br/>
+  <label for="clin"> Hospitals/Clinics</label>
+  <input type="checkbox" id="clin" name="clin" value="clin" oninput="this.className = ''">
+  <br/>
+  <label for="hosp"> Hospice</label>
+  <input type="checkbox" id="hosp" name="hosp" value="hosp" oninput="this.className = ''">
+  <br/>
+  <label for="hdpt"> Health Department</label>
+  <input type="checkbox" id="hdpt" name="hdpt" value="hdpt" oninput="this.className = ''">
+  <br/>
+  <label for="vc"> Veteran Care</label>
+  <input type="checkbox" id="vc" name="vc" value="vc" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Support Groups</h1>
+  <label for="sa"> Substance Abuse</label>
+  <input type="checkbox" id="sa" name="sa" value="sa" oninput="this.className = ''">
+  <br/>
+  <label for="dem"> Dementia</label>
+  <input type="checkbox" id="dem" name="dem" value="dem" oninput="this.className = ''">
+  <br/>
+  <label for="cg"> Caregiver</label>
+  <input type="checkbox" id="cg" name="cg" value="cg" oninput="this.className = ''">
+  <br/>
+  <label for="misc"> Miscellaneous</label>
+  <input type="checkbox" id="misc" name="misc" value="misc" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Adult Daycare:</h1>
+  <label for="adultdaycare"> Adult Daycare</label>
+  <input type="checkbox" id="adultdaycare" name="adultdaycare" value="adultdaycare" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Crisis Support:</h1>
+  <label for="ab"> Physical Abuse</label>
+  <input type="checkbox" id="ab" name="ab" value="ab" oninput="this.className = ''">
+  <br/>
+  <label for="sa"> Substance Abuse</label>
+  <input type="checkbox" id="sa" name="sa" value="sa" oninput="this.className = ''">
+  <br/>
+  <label for="hoard"> Hoarding Treatment</label>
+  <input type="checkbox" id="hoard" name="hoard" value="hoard" oninput="this.className = ''">
+  <br/>
+  <label for="add"> Addiction</label>
+  <input type="checkbox" id="add" name="add" value="add" oninput="this.className = ''">
+</div>
+
+<div class="tab">
+  <h1>Insurance:</h1>
+  <label for="care"> Medicare</label>
+  <input type="checkbox" id="care" name="care" value="care" oninput="this.className = ''">
+  <br/>
+  <label for="mdc"> Medicaid</label>
+  <input type="checkbox" id="mdc" name="mdc" value="mdc" oninput="this.className = ''">
+  <br/>
+  <label for="isp"> Insurance Savings Programs</label>
+  <input type="checkbox" id="isp" name="isp" value="isp" oninput="this.className = ''">
+  <br/>
+  <label for="pre"> Prescriptions</label>
+  <input type="checkbox" id="pre" name="pre" value="pre" oninput="this.className = ''">
+</div>
+  
+<div class="tab">
+  <h1>Legal:</h1>
+  <label for="pb"> Pro Bono</label>
+  <input type="checkbox" id="pb" name="pb" value="pb" oninput="this.className = ''">
+  <br/>
+  <label for="el"> Elder Law</label>
+  <input type="checkbox" id="el" name="el" value="el" oninput="this.className = ''">
+  <br/>
+  <label for="gl"> General Law</label>
+  <input type="checkbox" id="gl" name="gl" value="gl" oninput="this.className = ''">
+</div>
+<div class="tab">
+  <h1>Financial Assistance:</h1><br>
+  <label for="dc"> Debt Counselors</label>
+  <input type="checkbox" id="dc" name="dc" value="dc" oninput="this.className = ''">
+  <br/>
+  <label for="ga"> General Assistance</label>
+  <input type="checkbox" id="ga" name="ga" value="ga" oninput="this.className = ''">
+  <br/>
+  <label for="u"> Utilities</label>
+  <input type="checkbox" id="u" name="u" value="u" oninput="this.className = ''">
+  <br/>
+  <label for="f"> Food</label>
+  <input type="checkbox" id="f" name="f" value="f" oninput="this.className = ''">
+  <br/>
+  <label for="clo"> Clothing</label>
+  <input type="checkbox" id="clo" name="clo" value="clo" oninput="this.className = ''">
+  <br/>
+  <label for="his"> Household Items</label>
+  <input type="checkbox" id="his" name="his" value="his" oninput="this.className = ''">
+  <br/>
+  <label for="shel"> Shelter</label>
+  <input type="checkbox" id="shel" name="shel" value="shel" oninput="this.className = ''">
+  <br/>
+  <label for="hip"> Medicaid/HIP</label>
+  <input type="checkbox" id="hip" name="hip" value="hip" oninput="this.className = ''">
+  <br/>
+  <label for="ss"> Social Security</label>
+  <input type="checkbox" id="ss" name="ss" value="ss" oninput="this.className = ''">
+  <br/>
+  <label for="wel"> Welfare</label>
+  <input type="checkbox" id="wel" name="wel" value="wel" oninput="this.className = ''">
+  <br/>
+  <label for="mm"> Money Management</label>
+  <input type="checkbox" id="mm" name="mm" value="mm" oninput="this.className = ''">
+</div>
+<div class="tab">
+  <h1>Employment:</h1>
+  <label for="js"> Job Search</label>
+  <input type="checkbox" id="js" name="js" value="js" oninput="this.className = ''">
+  <br/>
+  <label for="emp"> Unemployment</label>
+  <input type="checkbox" id="emp" name="emp" value="emp" oninput="this.className = ''">
+</div>
+<div class="tab">
+  <h1>Transportation:</h1><br>
+  <label for="js"> All Results</label>
+  <input type="checkbox" id="all" name="all" value="all" oninput="this.className = ''">
+  <br/>
+</div>
+<br/>
+<div style="overflow:auto;">
+  <div style="float: left;">
+    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+  </div>
+</div>
+
+<!-- Circles which indicates the steps of the form: -->
+<div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
+  <span class="step"></span>
+</div>
+</form>
+</div>
+<table>
+    <tbody id="tbody"></tbody>
+</table>
+<style>
+ #regForm {
+  background-color: rgba(26,26,26,0);
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+  border-color: rgba(0,0,0,1);
+  border-width: thin;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 12px;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none; 
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+</style>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<script>
+  var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the current tab
+var catOptions = ["Housing", "In-Home Care", "Home Maintenance", "Equipment", "Healthcare", "Support Groups", "Adult Daycare", "Crisis Support", "Insurance", "Legal","Financial Assistance","Employment","Transportation"]
+var mod = {"Legal":["Pro Bono", "Elder Law", "General Law"], "Housing": ["Section 8 / HUD", "Low Income", "Senior Community", "Independent Living", "Emergency Shelter", "Alzheimer/Dementia", "Rehab", "Assisted Living", "Skilled Nursing"],"Financial Assistance": ["Debt Counselor", "General Assistance", "Utilities", "Food", "Clothing", "Household", "Shelter", "Medicaid / HIP", "Social Security", "Welfare", "Money Management"], "Healthcare": ["Mental Health","Dental","Podiatry","Vision","Hearing","Hospitals / Clinics","Hospice","Adult Day Care","Physical Abuse","Hoarding Treatment","Health Dept","Substance Abuse","Dementia","Caregiver","Veteran Care","Addiction"], "Employment": ["Job Search", "Unemployment"], "Home Maintenance": ["Lawn Care", "Snow Removal", "Plumbing", "Electric", "Air Conditioning", "Remodeling/Home Care", "Equipment"], "Equipment": ["Ramps", "Wheelchairs", "Lifts", "Hospital Beds", "Medical Equipment", "Medical Alerts"], "Insurance": ["Medicare", "Medicaid", "Insurance Savings Programs", "Prescriptions"], "In-Home Care": ["Homemaking", "Attendant Care", "Medical Care", "Skilled Home Care"], "Adult Daycare": ["Adult Daycare"], "Support Groups": ["Substance Abuse", "Dementia", "Caregivers", "Miscellaneous"], "Crisis Support": ["Physical Abuse", "Hoarding Treatment", "Substance Abuse", "Addiction"], "Transportation": ["All Results"]}
+function showTab(n) {
+  // This function will display the specified tab of the form ...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  // ... and fix the Previous/Next buttons:
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n >= 1) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  // ... and run a function that displays the correct step indicator:
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  if (n == 1 && document.getElementById("nextBtn").innerHTML === "New Search") {
+    window.location.reload()
+  }
+  if(currentTab == 0 && n == 1){
+    var el = document.getElementsByClassName("tab")[0].getElementsByTagName("select")[0].value
+    currentTab += catOptions.indexOf(el) + 1;
+    showTab(currentTab);
+  }
+  else if(currentTab >= 1 && n == -1 && document.getElementById("nextBtn").innerHTML === "New Search"){
+    var win = window.open('', '', 'height=700,width=700');
+    var header = "<div style='font-size: 12px; line-height: 0.75;'><p>Council on Aging of Elkhart County</p><p>131 West Tyler St., Suite 1A Elkhart, IN 46516</p><p>(574) 295-1820</p><p>info@elkhartcoa.org</p><a href='https://www.elkhartcoa.org'>https://www.elkhartcoa.org</a><br><br></div>"
+    win.document.write(header)
+    var selectoption = document.getElementById("filter_Category");
+    var selectoption2 = selectoption.options[selectoption.selectedIndex].value;
+    win.document.write("<div style='font-size: 14px; line-height: 0.75;'>Showing results for: " + selectoption2 + "</div>")
+    const results = document.querySelectorAll("input")
+    for (let i = 0; i < results.length; i++) {
+      if (results[i].checked) {
+         win.document.write("<div style='font-size: 14px; line-height: 0.75;'><p>" + results[i].value + "</p></div>")
+      }
+    }
+    win.document.write(document.querySelectorAll('table')[0].outerHTML)
+    win.document.write("<style>table {font-family: arial, font-size: 5px, sans-serif;border-collapse: collapse;width: 100%;}td, th {border: 1px solid #dddddd;text-align: left;padding: 8px;}tr:nth-child(even) {background-color: #dddddd;}</style>")
+    win.document.close()
+    win.print();
+  }
+  else if(currentTab >= 1 && n == -1){
+    currentTab = 0
+    showTab(currentTab);
+  }
+  else if (currentTab >= 1 && n == 1) {
+    //...the form gets submitted:
+    document.getElementById("nextBtn").innerHTML = "New Search";
+    document.getElementById("prevBtn").innerHTML = "Print";
+    redirectToTable();
+  }
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class to the current step:
+  if(n >= 1){
+      x[1].className += " active";
+  }
+  else{
+    x[0].className += " active"
+  }
+
+}
+function redirectToTable(){
+  var data = []
+  var Airtable = require('airtable');
+  var base = new Airtable({apiKey: 'keyn12xfj79yj8zUj'}).base('appE3YET5yQePUjtc');
+  base('Up to date info').select({
+     }).eachPage(function page(records, fetchNextPage) {
+    // This function (`page`) will get called for each page of records.
+    records.forEach(function(record) {
+        data.push(record.fields);
+    });
+    fetchNextPage();
+}, function done(err) {
+  var cat = document.getElementsByClassName("tab")[0].getElementsByTagName('select')[0].value;
+  var ans = []
+  var fields = mod[cat] 
+  var records = []
+  var result = []
+  var start = []
+  document.getElementsByClassName("tab")[currentTab].getElementsByTagName("input").forEach(element => ans.push(element.checked))
+  var pairs = fields.map(function(e, i) { return [e, ans[i]];});
+  var tPairs = pairs.filter(pair => pair[1] === true);
+  var result = data.filter(r => r.Category === cat);
+  records.push(start.concat(result));
+  for(var i = 0; i < tPairs.length; i++){
+    var record = records[i].filter(x => x[tPairs[i][0]] === true)
+    records.push(record)
+  }
+  var lrec = records.length
+  records[lrec - 1].sort(function compare(a,b){
+    if(a["Name"] > b["Name"]){
+      return 1;
+    }
+    else{
+      return -1;
+    }
+  })
+  var cols = ["Name", "Phone Number", "Address", "Website", "Company Description"];
+  var cell;
+  var tbody = document.getElementById('tbody');
+  tbody.innerHTML += "<tr><th>Name</th><th>Phone Number</th><th>Address</th><th>Website</th><th>Company Description</th></tr>"
+  if(records[lrec - 1].length === 0){
+    tbody.innerHTML += "<tr><th>No Results Found</th></tr>";
+    return;
+  }
+  for (var i = 0; i < records[lrec - 1].length; i++) {
+    var tr = "<tr>";
+    cols.forEach(el => {
+      cell = records[lrec - 1][i][el]
+      if(cell !== undefined){
+        tr += "<td style='font-size: 12px'>" + cell + "</td>";
+      }
+      else{
+        tr += "<td></td>";
+      }
+    });
+    
+    tbody.innerHTML += tr;
+  }
+  if (err) { console.error(err); return; }
+});
+    var base2 = new Airtable({apiKey: 'keyn12xfj79yj8zUj'}).base('appE3YET5yQePUjtc');
+  base2('COA Metadata').select({
+    // Selecting the first 3 records in Grid view:
+    maxRecords: 3,
+    view: "Grid view"
+}).eachPage(function page(records, fetchNextPage) {
+    // This function (`page`) will get called for each page of records.
+
+    records.forEach(function(record) {
+        console.log('Retrieved', record.get('Subcategory'));
+    });
+
+    // To fetch the next page of records, call `fetchNextPage`.
+    // If there are more records, `page` will get called again.
+    // If there are no more records, `done` will get called.
+    fetchNextPage();
+
+}, function done(err) {
+    if (err) { console.error(err); return; }
+});
+}
+</script>
